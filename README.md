@@ -1,6 +1,6 @@
 # Data_Skills
 Web scraper for indeed job search to reveal the data scientist required skills keywords
-![](https://github.com/yuanyuanshi/Data_Skills/blob/master/Cloud%201%20(1).png)
+![]https://github.com/yuanyuanshi/Data_Skills/blob/master/Cloud%202.png
 
 When I’m preparing my resume to look for a data scientist job, what skills do you need to be a data scientist? Or, what skills are the companies looking for? I tried to answer these questions by looking up the job posts on indeed.com with web scraping. I collected all data scientist job posts’ requirements on data science skills from six cities, San Francisco, New York, Seattle, Austin, Chicago and Detroit.
 
