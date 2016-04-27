@@ -2,7 +2,7 @@
 Web scraper for indeed job search to reveal the data scientist required skills keywords
 ![](https://github.com/yuanyuanshi/Data_Skills/blob/master/Cloud%202.png)
 
-When on your way to a data science career, what skills do you need to be a data scientist? Or, what skills are the companies looking for? I tried to answer these questions by looking up the job posts on indeed.com with web scraping. I collected all data scientist job posts’ requirements on data science skills from six cities, San Francisco, New York, Seattle, Austin, Chicago and Detroit.
+When on your way to a data science career, what skills do you need to be a data scientist? Or, what skills are the companies looking for? I tried to answer these questions by looking up the job posts on indeed.com with web scraping. I collected all indeed's data scientist job posts’ requirements on data science skills from six cities, San Francisco, New York, Seattle, Austin, Chicago and Detroit.
 
 I build a web scraper with Beautifulsoup and selenium’s python package. After collecting all job posts’ urls with requests, I use selenium to automate Firefox (PhantomJS also works but I like to view the browser directly) to load the urls (due to the indeed’s Ajax requests package can't return the correct webpage); then parse the webdriver’s page source with beautifulsoup. And the beautifulsoup object will be cleaned and after text processing only data science skill keywords will be extracted. Then I count the frequency of each skill keyword and divide them by the total jobs found in that city to get a percentage of skills required.
 I gathered the data and stored them as a csv file.
