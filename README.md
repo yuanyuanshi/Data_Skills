@@ -31,3 +31,6 @@ Below is a pic of the percentage of the skills being looked for at San Francisco
 
 Different cities prefer different data science skills and the requirements varies over time, the results I present here are for April 2016. Besides, the data scientist title includes positions for data analyst and data engineer, and different kinds of companies put different emphasis on the skills.
 
+How to use this crawler?
+Just change the start_url to wherever you want; also you can modify the skills dictionary, then you can get the job keywords in your field and your interested city!
+
